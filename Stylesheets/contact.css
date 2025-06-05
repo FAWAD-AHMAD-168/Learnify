@@ -154,10 +154,13 @@ button {
 #nl-form-email {
 
   padding:0.5rem 1rem;
-  border: 2px solid grey;
+  border: 2px solid gray;
   border-radius: 7px;
 }
-
+#nl-form-email:focus{
+  outline: none;
+  border-color: #5759d4;
+}
 
 #tp-para {
   color: grey;
