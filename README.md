@@ -8,8 +8,7 @@ Welcome to **Learnify**, a sleek and responsive landing page designed for e-lear
 - 🎨 Clean and modern UI with intuitive layout
 - 💡 Engaging hero section with call-to-action
 - 📚 Course highlights and student success stories
-- ✉️ Static contact and subscription form
-- 🧾 Built with semantic HTML, CSS, and JavaScript
+- 🧾 Built with semantic HTML and CSS
 
 ## 🛠️ Tech Stack
 
