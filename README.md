@@ -1,4 +1,4 @@
-# Learnify – Modern Landing Page
+# Learnify – A Personalized learning platform 
 
 Welcome to **Learnify**, a sleek and responsive landing page designed for e-learning platforms, online courses, or any modern educational website.
 
