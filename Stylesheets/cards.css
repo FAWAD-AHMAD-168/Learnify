@@ -1,0 +1,178 @@
+/* CARDS SECTION DESIGNING STARTS HERE
+CARDS SECTION DESIGNING STARTS HERE
+CARDS SECTION DESIGNING STARTS HERE */
+
+
+
+.section-e-card {
+  max-width: 1200px;
+  margin-left: 0;
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.card-image{
+  margin-top: 1rem;
+}
+
+.icon-circle {
+  background-color: white;
+  border-radius: 50%;
+  margin-top: 3rem;
+  
+  width: 50px;
+  height: 50px;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto; /* centers it horizontally */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.icon-circle i {
+  font-size: 32px;
+  color: #c3c314; /* Matching your example color */
+}
+
+
+
+
+
+
+
+
+#heading-for-section {
+  font-weight:bold;
+
+}
+
+
+#para-for-section {
+  text-align: center;
+  max-width: 600px;
+  padding-top: 1rem;
+  margin:0 auto;
+  font-size:small;
+  /* margin-top: 1rem; */
+  color: grey;
+  font-weight: 700;
+}
+
+
+.main-card {
+
+ 
+  display: flex;
+ 
+  flex-direction: column;
+  
+  
+  color: aliceblue;
+  background-color: #0096FF;
+  border-radius: 10px;
+
+
+}
+
+.icon-circle{
+  margin-top: 1rem;
+}
+
+.cards-desc {
+  gap: 1rem;
+}
+
+.heading-for-card {
+  /* margin-left:4.5rem; */
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.para-for-card {
+  font-size: small;
+  text-align: center;
+  margin-top: 0.3rem;
+  margin-bottom: 1.15rem;
+  margin-left:1rem ;
+  margin-right: 1rem;
+
+}
+
+.cards-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+#second-card {
+  background-color: #FF69B4;
+}
+
+#third-card {
+  background-color: #a8a813;
+}
+
+#fourth-card {
+  background-color: rgb(84, 188, 228);
+
+}
+
+#fifth-card {
+  background-color: #23b000;
+}
+
+#sixth-card {
+  background-color: #791ec9;
+}
+
+
+
+/* GRID FOR ALL THE CARDS */
+
+#cards-container {
+  margin-top: 3rem;
+  max-width: 575px;
+  margin-left:auto 0;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media screen and (max-width:768px) {
+  #cards-container {
+    display: grid;
+    grid-template-columns: repeat(1, 0.7fr);
+    grid-template-rows: repeat(6, 1fr);
+    justify-items: center;
+    gap: 2rem;
+  }
+}
+
+
+@media screen and (min-width:1200px) {
+  
+.section-e-card{
+  margin:0 auto;
+  
+}
+ 
+
+}
+
+
+
+
+
+/* CARDS SECTION ENDS HERE  */
+/* CARDS SECTION ENDS HERE  */
+/* CARDS SECTION ENDS HERE  */

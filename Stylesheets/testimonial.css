@@ -1,0 +1,124 @@
+/* STARTING TESTIMONAUIAL SECTION */
+
+.testimonial-section {
+  margin-top: 2rem;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+
+
+
+
+.cards-of-tests .my-tests:hover {
+
+  transform: scalex(1.06);
+  border:2px solid rgb(172, 168, 168);
+}
+
+
+
+
+.cards-of-tests {
+  margin-top: 1rem;
+  display: flex;
+  gap: 2rem;
+
+}
+
+
+
+
+
+@media screen and (max-width:768px) {
+  .cards-of-tests {
+
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+  }
+
+}
+
+@media screen and (min-width:768px) and (max-width:947px) {
+  .cards-of-tests {
+    max-width: 700px;
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 271.25px);
+    grid-template-rows: repeat(2, 172.5px);
+    gap: 1rem;
+
+  }
+
+
+}
+
+.my-tests {
+  width: 271.25px;
+  height: 172.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+  border: 2px solid rgb(220, 217, 217);
+  border-radius: 0.5rem;
+  transition: transform 0.2s;
+}
+
+
+
+
+
+
+
+
+
+
+#test-para {
+  margin-top: 0.6rem;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+  color: grey;
+  font-weight: bold;
+  font-size: x-small;
+  text-align: center;
+}
+
+#sender-image {
+  margin-top: 0.6rem;
+  height: 3rem;
+  width: 3rem;
+  /* border:2px solid grey ; */
+  border-radius: 50px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+i {
+  font-size: 32px;
+  margin-top: 0.6rem;
+
+
+}
+
+#name-of-test-sender {
+  color: #5759d4;
+  font-weight: bold;
+
+}
+
+#status-of-sender {
+  color: #423f3f;
+  font-size: x-small;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+
+}

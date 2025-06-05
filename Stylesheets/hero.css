@@ -1,0 +1,297 @@
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+.section-begin {
+
+  display: flex;
+  gap: 5rem;
+  margin-top: 3rem;
+  
+}
+
+.left-part {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+@media screen and (min-width:1200px) {
+  .section-begin{
+    margin-bottom:6rem;
+  }
+}
+
+
+
+
+
+
+/* ANIAMTION OF LEFT PART ; */
+
+.left-part {
+  opacity: 0;
+  animation-name: slidingofleft;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+}
+
+@keyframes slidingofleft {
+
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+#left-p1 {
+  text-align: start;
+  color: #6366F1;
+  font-weight: bold;
+  padding-top: 1rem;
+}
+
+
+#left-heading {
+  font-size: xx-large;
+  padding-top: 1rem;
+}
+
+
+#left-p2 {
+  color: gray;
+  font-size: small;
+  font-weight: bold;
+  padding-top: 1.7rem;
+}
+
+.buttons {
+  padding-top: 1rem;
+  display: flex;
+
+
+}
+
+.sb {
+  width: fit-content;
+  color: white;
+  font-size: smaller;
+  padding: 0.5rem 0.8rem;
+  background-color: #5759d4;
+  border-radius: 0.3rem;
+  display: block;
+}
+
+.tt {
+
+  width: fit-content;
+  color: white;
+  font-size: smaller;
+  padding: 0.5rem 0.8rem;
+  background-color: #464647;
+  border-radius: 0.3rem;
+  display: block;
+
+}
+
+.buttons {
+  gap: 1rem;
+}
+
+
+.sec-imgu {
+
+  height: 23rem;
+  width: 23rem;
+  border-radius: 0.4rem;
+}
+
+
+
+
+/* ANIAMTION OF LEFT PART ; */
+
+
+.right-part {
+  max-width: 500px;
+}
+
+.right-part {
+  opacity: 0;
+  animation-name: slidingofright;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+}
+
+@keyframes slidingofright {
+
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 947px) {
+
+  section {
+    max-width: 710px;
+    margin: 0 auto;
+  }
+
+  #left-p1 {
+    text-align: start;
+    color: #6366F1;
+    font-weight: 800;
+    padding-top: 1rem;
+  }
+
+
+  #left-heading {
+    font-size: larger;
+    padding-top: 0.7rem;
+  }
+
+
+  #left-p2 {
+    color: gray;
+    font-size: small;
+    font-weight: bold;
+    padding-top: 1.2rem;
+  }
+
+
+}
+
+@media (max-width:768px) {
+    
+    
+.right-part{
+    display: none;
+}
+.left-part{
+    margin-left:1rem;
+    margin-right: 1rem;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* STARTING PART TWO OF LEARN WITH LOVE PROJECT */
+  /*STARTING HERO SECTION  */
+  /* MEDIA QUERY FOR HERO SECTION */
+
+  /* @media (max-width: 768px) {
+  .section-begin {
+    min-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+  }
+} */
+
+
+  /* @media (min-width: 769px) and (max-width: 1024px) {
+  .section-begin {
+
+    display: flex;
+    min-width: 900px;
+
+
+    gap: 2rem;
+
+  }
+
+  .section {
+    margin-left: 7rem;
+  }
+
+
+} */
+
+
+
+  /* @media (min-width: 1024px) {
+  .section-begin {
+
+    display: flex;
+    min-width: 900px;
+    gap: 2rem;
+
+  }
+
+  .section {
+    margin-left: 7rem;
+  }
+} */

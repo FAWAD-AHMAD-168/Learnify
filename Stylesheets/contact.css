@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.newsletter {
+  margin: 0 auto;
+  max-width: 900px;
+  
+  background-color: #ede8e8;
+  margin-bottom: 1rem;
+  border-radius: 7px;
+  display: flex;
+
+
+}
+
+.right-part-nl-start {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+
+
+#nl-heading {
+  color: #5759d4;
+  font-size: x-large;
+
+}
+
+#nl-para {
+  color: grey;
+  font-weight: bold;
+  font-size: small;
+
+}
+
+
+
+
+@media (max-width: 947px) {
+  .newsletter {
+    flex-direction: column;
+  }
+
+  .right-part-nl-start {
+    background-color: #ede8e8;
+  }
+
+  .left-part-nl-start {
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: none;
+  }
+
+
+
+
+}
+
+@media (max-width:530px) {
+  .newsletter {
+    margin: 0 auto;
+    max-width: 400px;
+    margin: 2rem;
+  }
+
+  #nl-immage {
+    display: none;
+  }
+
+  #nl-button {
+
+    color: white;
+    background-color: #5759d4;
+    padding-top: 0.3rem;
+    padding-right: 0.8rem;
+    padding-bottom: 0.3rem;
+    padding-left: 0.8rem;
+    margin-left: 0.8rem;
+    border-radius: 5px;
+  }
+
+}
+
+
+@media (max-width:444px) {
+  #nl-form-email {
+    margin-bottom: 0.4rem;
+  }
+
+  input[type="email"] {
+    width: 100%;
+  }
+
+  #nl-button {
+    color: white;
+    background-color: #5759d4;
+    padding: 0.25rem 0.5rem;
+    margin-left: 0.5rem;
+    border-radius: 5px;
+    font-size: 0.75rem;
+  }
+
+
+  .right-part-nl-start {
+    gap: 0.3rem;
+  }
+
+
+
+
+}
+
+
+
+
+
+/* for moving send butrton in front of the email option box  */
+
+
+
+button {
+  all: unset;
+}
+
+#nl-button {
+
+  color: white;
+  background-color: #5759d4;
+  padding-top: 0.5rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  margin-left: 1rem;
+  border-radius: 7px;
+}
+
+#nl-form-email {
+
+  padding-top: 0.5rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  border: 2px solid grey;
+  border-radius: 7px;
+}
+
+
+#tp-para {
+  color: grey;
+  font-size: smaller;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.pak {
+  color: #5759d4
+}
+
+
+
+#nl-immage {
+  height: 18rem;
+  width: 31.5rem;
+  object-fit: cover;
+
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+
+.right-part-form {
+
+  height: 18rem;
+  width: 30rem;
+  padding: 3rem 2rem;
+
+}

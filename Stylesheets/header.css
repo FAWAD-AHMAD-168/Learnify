@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9rem;
+
+    padding-top: 30px;
+    background-color: #ffffff;
+    z-index: 999;
+
+
+}
+
+.section {
+    margin-top: 10px;
+}
+
+.wavy-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.635rem;
+}
+
+/* i{
+    height:5.875rem ;
+    width:1.938rem ;
+} */
+
+
+#logofor {
+    color: #3e3e3e;
+
+    font-size: 1.5rem;
+    font-weight: 900;
+
+}
+
+
+/* STYLING FOR THE NAVLINKS */
+
+
+nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar a {
+    color: #718096;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+.Color-change:hover {
+    color:#7476ee;
+}
+
+
+
+#contact-button {
+    color: white;
+    font-size: smaller;
+    padding: 0.5rem 0.8rem;
+
+    background-color: #4c4fef;
+    border-radius: 0.3rem;
+    display: block;
+    transition: all 0.4;
+}
+
+#contact-button:hover {
+    background-color:  #7e80f0;
+}
+
+
+/* HEADER'S STYLING FINISHED HERE  NOW  MOB=VING TOWARDS THE MEDIA QUERIES  */
+
+@media screen and (max-width:768px) {
+    #contact-button {
+        display: none;
+
+    }
+
+    .menu-button {
+        display: block;
+    }
+
+}
+
+
+@media screen and (min-width:768px) {
+    .menu-button {
+        display: none;
+    }
+}
+
+
+
+/* RESPONSIVE NESS OF THE HEADER START HERE */
+
+@media screen and (max-width:768px) {
+    nav {
+        display: none;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
+    .header {
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left:1rem;
+        margin-right: 1rem;
+    }
+
+
+    .header {
+        padding-left: 0.6rem;
+        padding-right: 0.6rem;
+
+    }
+
+
+    #logofor {
+        color: #333333;
+
+        font-size: 2rem;
+        font-weight: 800;
+
+    }
+
+    .wavy-logo i {
+        font-size: 2.5rem;
+        font-weight: 800;
+
+    }
+
+    #smaller-icon {
+        height: 2rem;
+        width: 2rem;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 947px) {
+    .header {
+        gap: 4rem;
+        padding-left: 0.6rem;
+        padding-right: 0.6rem;
+
+    }
+
+    #contact-button {
+        padding: 0.25rem 0.4rem;
+        font-size: small;
+
+    }
+
+
+}
+
+
+@media   (min-width:300px) and (max-width:390px) {
+#h-content{
+    margin-left:2rem;
+    margin-right:2rem;
+}
+
+}
