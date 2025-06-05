@@ -13,7 +13,7 @@ section {
 }
 
 .left-part {
-  max-width: 400px;
+  max-width: 450px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -91,6 +91,12 @@ section {
   border-radius: 0.3rem;
   display: block;
 }
+.sb:hover{
+background-color:  #686ac4;
+}
+.tt:hover{
+background-color:#76767a;
+}
 
 .tt {
 
@@ -123,7 +129,7 @@ section {
 
 
 .right-part {
-  max-width: 500px;
+  max-width: 450px;
 }
 
 .right-part {
@@ -166,7 +172,7 @@ section {
 
 
   #left-heading {
-    font-size: larger;
+    font-size:larger;
     padding-top: 0.7rem;
   }
 
