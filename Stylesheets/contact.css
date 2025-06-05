@@ -112,13 +112,10 @@
   }
 
   #nl-button {
-    color: rgb(223, 28, 28);
+    color: rgb(255, 255, 255);
     background-color: #5759d4;
-    
-    padding: 0.25rem 0.5rem;
-   
     border-radius: 5px;
-    font-size: 0.75rem;
+   
   }
 
 
@@ -149,6 +146,7 @@ button {
   padding: 0.5rem 1rem;
   margin-left: 1rem;
   border-radius: 0.4rem;
+  font-weight:600;
 }
 #nl-button:hover{
   background-color:#6466e1;
