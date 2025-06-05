@@ -15,7 +15,7 @@ Welcome to **Learnify**, a sleek and responsive landing page designed for e-lear
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla)
+
 
 ## 🌐 Live Demo
 
