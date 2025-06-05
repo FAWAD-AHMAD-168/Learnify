@@ -77,7 +77,6 @@ nav {
     color: white;
     font-size: smaller;
     padding: 0.5rem 0.8rem;
-
     background-color: #4c4fef;
     border-radius: 0.3rem;
     display: block;
@@ -85,11 +84,24 @@ nav {
 }
 
 #contact-button:hover {
-    background-color:  #7e80f0;
+    background-color:  #6a6ce4;
 }
 
 
-/* HEADER'S STYLING FINISHED HERE  NOW  MOB=VING TOWARDS THE MEDIA QUERIES  */
+.menu-button{
+    color:#4c4fef;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+/* HEADER'S STYLING FINISHED HERE  NOW  MOVING TOWARDS THE MEDIA QUERIES  */
 
 @media screen and (max-width:768px) {
     #contact-button {
@@ -152,10 +164,7 @@ nav {
 
     }
 
-    #smaller-icon {
-        height: 2rem;
-        width: 2rem;
-    }
+   
 
 }
 
@@ -168,11 +177,10 @@ nav {
 
     }
 
-    #contact-button {
-        padding: 0.25rem 0.4rem;
-        font-size: small;
+    /* #contact-button {
+       
 
-    }
+    } */
 
 
 }
